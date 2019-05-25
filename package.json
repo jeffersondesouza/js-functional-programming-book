@@ -6,9 +6,12 @@
   "dependencies": {
     "nodemon": "^1.19.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  },
   "scripts": {
-    "start": "nodemon"
+    "start": "lite-server",
+    "start:d": "nodemon"
   },
   "author": "",
   "license": "ISC"
