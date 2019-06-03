@@ -1,4 +1,5 @@
 (function() {
+
   /*  */
   function printPrice(price, label) {
     const liNode = document.createElement("li");
